@@ -1,0 +1,607 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* --- header --- */
+
+header {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    padding: 2%;
+    background-color: #008fcc;
+    border-bottom: 5px solid #8d8d8d;
+}
+
+.header-text {
+    position: relative;
+    left: 10%;
+    top: -3%;
+    color: white;
+    font-size: 3em;
+    display: inline;
+    padding: 1% 1%;
+    border-radius: 10px;
+    /*border: solid 3px yellow;*/
+}
+
+.header-list {
+    position: relative;
+    word-spacing: 2em;
+    /* border: solid 3px yellow; */
+    padding: 0;
+    margin: 0;
+    width: 30%;
+    left: 67%;
+}
+
+
+.header-list>li {
+    /* Align menu list horizontally,  make font bold and enlarge font to 1.5em */
+    display: inline;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+a:hover {
+    /* Set different color when link is hovered */
+    color: orangered;
+    opacity: 0.5;
+}
+
+a {
+    text-decoration: none;
+    /* Elimanate link underlining and set text color to white */
+    color: white;
+}
+
+
+
+
+/* --- body --- */
+
+body {
+    background-color: Deepskyblue;
+    margin: 0;
+}
+
+
+
+
+/* The main content box - About Me */
+
+.main-content {
+    border: 4px solid #8d8d8d;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 50%;
+    background: linear-gradient(white, #f5f5f5, white);
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, .8);
+    border-radius: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.main-content>p {
+    text-align: justify;
+    margin-right: 1%;
+}
+
+
+.about-me {
+    margin: 0.5em 0 0.5em 0;
+}
+
+.about-me-picture {
+    margin: 0 1.4em 3% 0;
+    float: left;
+    height: 15%;
+    border-radius: 2%;
+    border-left: 5px solid Deepskyblue;
+    border-right: 5px solid Deepskyblue;
+}
+
+.hr1 {
+    /* Add line separator */
+    display: block;
+    border-top: 1px solid #ccc;
+    margin: 1em 0em 1em 0;
+    padding: 0;
+}
+
+
+.hr2 {
+    /* Add line separator */
+    display: block;
+    border-top: 1px solid #ccc;
+    padding: 0;
+}
+
+
+
+
+
+/* --- footer --- */
+
+footer {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    border-top: 5px solid #8d8d8d;
+    background-color: #008fcc;
+}
+
+.footer {
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: 15%;
+}
+
+
+
+
+
+/* Portfolio Page Start */
+
+.odd-boxes {
+    float: left;
+    width: 13.4%;
+    /*border: 3px solid green;*/
+    position: absolute;
+    left: 25%;
+    margin: 0;
+    padding: 0;
+    top: 25%;
+}
+
+.even-boxes {
+    float: right;
+    width: 13.4%;
+    /*border: 3px solid green;*/
+    position: absolute;
+    right: 48%;
+    margin: 0;
+    padding: 0;
+    top: 25%;
+}
+
+.box {
+    position: relative;
+    margin: 5%;
+    border-top: ;
+    border-top: 5px solid #8d8d8d;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, .8);
+    border-radius: 10px;
+}
+
+.box-image-text {
+    color: white;
+    background: #008fcc;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 80%;
+}
+
+.box:hover {
+    /* Set different color when link is hovered */
+    color: orangered;
+    opacity: 0.5;
+}
+
+
+.header-list {
+    position: relative;
+    word-spacing: 1.5em;
+    /*border: solid 3px yellow;*/
+    font-size: 80%;
+    padding: 0;
+    margin: 0;
+    width: 30%;
+    left: 67%;
+}
+
+
+.secondary-content {
+    border: 3.5px solid #8d8d8d;
+    position: absolute;
+    top: 25%;
+    right: 17.5%;
+    width: 16.5%;
+    height: 15%;
+    background: linear-gradient(white, #f5f5f5, white);
+    text-align: center;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, .8);
+    border-radius: 10px;
+}
+
+.secondary-content-portfolio {
+    border: 3.5px solid #8d8d8d;
+    position: absolute;
+    top: 25%;
+    right: 17.5%;
+    width: 18%;
+    height: 17%;
+    background: linear-gradient(white, #f5f5f5, white);
+    text-align: center;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, .8);
+    border-radius: 10px;
+}
+
+
+.Contact-me-box {
+    font-size: 110%;
+}
+
+.hr2 {
+    /* Add line separator */
+    display: block;
+    border-top: 1px solid #ccc;
+    padding: 0;
+}
+
+
+.LinkedIn-Picture {
+    width: auto;
+    height: 35%;
+    position: relative;
+    top: 10%;
+    right: 8%;
+}
+
+
+
+.Instagram-Picture {
+    width: auto;
+    height: 35%;
+    position: relative;
+    top: 10%;
+}
+
+
+
+.LinkedIn-Picture:hover,
+
+
+
+/* Set icons transparent on hover */
+
+.Instagram-Picture:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    /* For IE8 and earlier */
+}
+
+
+
+
+@media (max-width: 1700px) {
+    .header-text {
+        position: relative;
+        left: 7%;
+        top: -3%;
+        color: white;
+        font-size: 2.5em;
+        display: inline;
+        padding: 1% 1%;
+        border-radius: 10px;
+        /*border: solid 3px yellow;*/
+    }
+
+    .main-content {
+        padding-bottom: 1%;
+    }
+
+    .main-content>p {
+        text-align: justify;
+    }
+
+
+    .about-me-picture {
+        margin-bottom: 1em;
+    }
+}
+
+@media (max-width: 980px) {
+
+	.social-media-icons-portfolio{
+        /*border: solid 4px green;*/
+        position: absolute;
+        top: 65%;
+        right: 33%;
+        width: 25%;
+        height: 3%;
+        text-align: center;
+    }
+
+.odd-boxes {
+    width: 16%;
+    /*border: 3px solid green;*/
+    left: 23%;
+    }
+
+.even-boxes {
+    width: 16%;
+    /*border: 3px solid green;*/
+    right: 37%;
+     }
+
+.box {
+    border-top: ;
+    border-top: 2px solid #8d8d8d;
+    
+}
+
+.box-image-text {
+    font-size: 80%;
+    top: 70%;
+}
+    .secondary-content-portfolio {
+    	display: none;
+    }
+}
+
+
+
+@media (max-height: 600px) and (max-width: 1200px) {
+
+    .main-content>p {
+        margin-right: 1%;
+        font-size: 0.8em;
+    }
+
+    .about-me {
+        position: relative;
+        font-size: 120%;
+        top: 0.5em;
+    }
+
+    .secondary-content {
+        border: 3.5px solid #8d8d8d;
+        position: absolute;
+        top: 25%;
+        right: 17.5%;
+        width: 16.5%;
+        height: 15%;
+        background: linear-gradient(white, #f5f5f5, white);
+        text-align: center;
+        box-shadow: 15px 15px 10px rgba(0, 0, 0, .8);
+        border-radius: 10px;
+        padding: 1%;
+    }
+
+    .contact-me-box-all {
+        position: absolute;
+        bottom: 35%;
+        right: 10%;
+        font-size: 1em;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .contact-me-box {
+        margin: 0;
+    }
+
+    .LinkedIn-Picture {
+        height: 60%;
+        position: relative;
+        top: 58%;
+        right: 8%;
+    }
+
+    .Instagram-Picture {
+        width: auto;
+        height: 60%;
+        position: relative;
+        top: 58%;
+    }
+}
+
+@media (min-width: 769px) {
+    .social-media-icons-index {
+        display: none;
+    }
+}
+
+
+@media (max-width: 768px) {
+    header {
+        padding: 2% 0 0 0;
+    }
+
+    .main-content {
+        padding-bottom: 1%;
+        top: 25%;
+        left: 10%;
+        width: 80%;
+    }
+
+    .secondary-content {
+        display: none;
+    }
+
+    .LinkedIn-Picture {
+        height: 75%;
+        top: 58%;
+        right: -25%;
+    }
+
+    .Instagram-Picture {
+        height: 75%;
+        right: -30%;
+        top: 58%;
+    }
+
+    .social-media-icons-index {
+        /*border: solid 4px green;*/
+        position: absolute;
+        top: 21%;
+        right: 17%;
+        width: 25%;
+        height: 8%;
+        text-align: center;
+    }
+
+     .social-media-icons-portfolio{
+        /*border: solid 4px green;*/
+        position: absolute;
+        top: 50%;
+        right: 33%;
+        width: 25%;
+        height: 6%;
+        text-align: center;
+    }
+
+    .header-text {
+        left: 25%;
+        font-size: 3em;
+        /*border: solid 3px yellow;*/
+    }
+
+    .header-list {
+        position: relative;
+        word-spacing: 2em;
+        /* border: solid 3px yellow; */
+        padding: 1% 0;
+        width: 50%;
+        left: 32%;
+    }
+
+    .odd-boxes {
+    width: 20%;
+    /*border: 3px solid green;*/
+    left: 18%;
+    }
+
+.even-boxes {
+    width: 20%;
+    /*border: 3px solid green;*/
+    right: 35%;
+     }
+
+.box {
+    border-top: ;
+    border-top: 2px solid #8d8d8d;
+    
+}
+
+.box-image-text {
+    font-size: 80%;
+    top: 70%;
+}
+}
+
+@media (max-width: 680px) {
+
+
+    .LinkedIn-Picture {
+        height: 60%;
+        top: 62%;
+        right: -25%;
+    }
+
+    .Instagram-Picture {
+        height: 60%;
+        top: 62%;
+        right: -30%;
+    }
+
+    .social-media-icons-index {
+        /*border: solid 4px green;*/
+        position: absolute;
+        top: 22%;
+        right: 14%;
+        width: 40%;
+        height: 8%;
+        text-align: center;
+    }
+
+         .social-media-icons-portfolio{
+        /*border: solid 4px green;*/
+        top: 53%;
+        right: 33%;
+        width: 25%;
+        height: 1%;
+        
+        
+    }
+
+    .header-text {
+        left: 25%;
+        font-size: 3em;
+        /*border: solid 3px yellow;*/
+    }
+
+    .header-list {
+        position: relative;
+        word-spacing: 2em;
+        /* border: solid 3px yellow; */
+        padding: 1% 0;
+        width: 50%;
+        left: 32%;
+    }
+}
+
+
+
+
+
+
+/*border: solid 3px yellow;*/
+
+
+/*.primary-content,
+.secondary-content {
+  width: 20%;
+}}*/
+
+
+/*
+
+@media (max-width: 768px) {
+.primary-content,
+.secondary-content {
+  width: 100%;
+  padding: 20px;
+  border-top: none;
+}
+.main-header {
+  max-height: 380px;
+  padding: 50px 25px 0;
+}
+.title {
+  font-size: 1.3rem;
+  border-top: none:
+}
+h1 {
+  font-size: 5rem;
+  line-height: 1.1;  
+}
+.arrow {
+  display: none;
+  
+}
+.intro {
+  font-size: 1rem;
+  }
+.resorts,
+.tips {
+  float: none;
+  width: 100%
+}
+.main-footer {
+  padding: 20px 0;
+}
+}
+*/
